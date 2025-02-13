@@ -1,0 +1,22 @@
+{
+    "name": "areanet/surcharge-promotions",
+    "description": "Use promotions for surcharge",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "AreanetSurchargePromotions\\AreanetSurchargePromotions",
+        "label": {
+            "de-DE": "Rabatte für Zuschläge nutzen",
+            "en-GB": "Use promotions for surcharge"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AreanetSurchargePromotions\\": "src/"
+        }
+    }
+}

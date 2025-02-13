@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+
+        <service id="AreanetSurchargePromotions\Subscriber\AreanetPromotionCalculator"
+                 decorates="Shopware\Core\Checkout\Promotion\Cart\PromotionCalculator">
+            <argument type="service" id="Shopware\Core\Checkout\Cart\Price\AmountCalculator"/>
+            <argument type="service" id="Shopware\Core\Checkout\Cart\Price\AbsolutePriceCalculator"/>
+            <argument type="service" id="Shopware\Core\Checkout\Cart\LineItem\Group\LineItemGroupBuilder"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\Composition\DiscountCompositionBuilder"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\Filter\AdvancedPackageFilter"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\Filter\AdvancedPackagePicker"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\Filter\AdvancedPackageRules"/>
+            <argument type="service" id="Shopware\Core\Checkout\Cart\LineItem\LineItemQuantitySplitter"/>
+            <argument type="service" id="Shopware\Core\Checkout\Cart\Price\PercentagePriceCalculator"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\ScopePackager\CartScopeDiscountPackager"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\ScopePackager\SetGroupScopeDiscountPackager"/>
+            <argument type="service" id="Shopware\Core\Checkout\Promotion\Cart\Discount\ScopePackager\SetScopeDiscountPackager"/>
+        </service>
+
+        <service id="AreanetSurchargePromotions\Subscriber\AreanetPromotionValidator"
+                 decorates="Shopware\Core\Checkout\Promotion\Validator\PromotionValidator">
+            <argument type="service" id="Doctrine\DBAL\Connection"/>
+        </service>
+
+    </services>
+</container>

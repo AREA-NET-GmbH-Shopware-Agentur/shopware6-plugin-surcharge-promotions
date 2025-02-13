@@ -1,0 +1,9 @@
+{% sw_extends "@Storefront/storefront/component/line-item/type/discount.html.twig" %}
+
+{% block component_line_item_type_discount_col_total_remove %}
+  <div class="line-item-remove">
+    {% if lineItem.removable and nestingLevel < 1 and lineItem.price.totalPrice <= 0 %}
+      {% sw_include '@Storefront/storefront/component/line-item/element/remove.html.twig' %}
+    {% endif %}
+  </div>
+{% endblock %}
