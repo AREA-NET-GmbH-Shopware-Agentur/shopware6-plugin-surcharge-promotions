@@ -1,4 +1,4 @@
-# Shopware 6 Plugin: Rabatte
+# Shopware 6 Plugin: Rabatte für Zuschläge nutzen
 
 ## Unterstützte Shopware Versionen und Changelog
 
