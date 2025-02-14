@@ -1,0 +1,1 @@
+(function(){var o={};o.p="bundles/areanetsurchargepromotions/",window?.__sw__?.assetPath&&(o.p=window.__sw__.assetPath+"/bundles/areanetsurchargepromotions/"),Shopware.Component.override("sw-promotion-discount-component",{methods:{onDiscountValueChanged(o){if("absolute"==this.discount.type){this.discount.value=o;return}this.$super("onDiscountValueChanged")}}})})();
