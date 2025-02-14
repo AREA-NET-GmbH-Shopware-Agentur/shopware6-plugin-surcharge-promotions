@@ -8,6 +8,7 @@
         "shopware/core": "~6.6.0"
     },
     "extra": {
+        "plugin-icon": "src/Resources/plugin.png",
         "shopware-plugin-class": "AreanetSurchargePromotions\\AreanetSurchargePromotions",
         "label": {
             "de-DE": "Rabatte für Zuschläge nutzen",
