@@ -2,11 +2,20 @@
 
 ## Unterstützte Shopware Versionen und Changelog
 
-Stand 13.02.2025:
-- **6.6.4.0 - 6.6.9.0**
+Stand 07.03.2025:
+- **6.6.4.0 - 6.6.10.2**
+- [CHANGELOG](CHANGELOG.md)
 
-Version 1.0.0 - 13.02.2025
-- Initiale Version
+## Installation
+
+### ZIP-Release
+
+Download des entsprechenden ZIP-Files von der [Release-Seite](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-surcharge-promotions/releases) und Installation/Upload in der Shopware-Administration unter Erweiterungen.
+
+### Composer
+
+`composer require areanet/surcharge-promotions`
+
 
 ## Hauptfunktionen des Plugins
 Bei den absoluten Rabatten können Minuswerte eingetragen und damit Zuschläge realisiert werden.
