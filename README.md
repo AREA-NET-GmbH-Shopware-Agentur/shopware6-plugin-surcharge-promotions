@@ -1,5 +1,9 @@
 # Shopware 6 Plugin: Rabatte für Zuschläge nutzen
 
+Bei den absoluten Rabatten können Minuswerte eingetragen und damit Zuschläge in Showpare 6 realisiert werden.
+
+Minus values can be entered for the absolute discounts and thus surcharges can be realised in showpare 6.
+
 ## Unterstützte Shopware Versionen und Changelog
 
 Stand 07.03.2025:
