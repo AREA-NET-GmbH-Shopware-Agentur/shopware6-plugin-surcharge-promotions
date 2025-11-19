@@ -28,7 +28,7 @@ class DiscountAbsoluteCalculator extends \Shopware\Core\Checkout\Promotion\Cart\
 
         $affectedPrices = $packages->getAffectedPrices();
 
-        $totalOriginalSum = $affectedPrices->sum()->getTotalPrice();
+        $totalOriginalSum = $affectedPrices->getTotalPriceAmount();
         $discountValue = min($definition->getPrice(), $totalOriginalSum);
 
         $price = $this->priceCalculator->calculate(

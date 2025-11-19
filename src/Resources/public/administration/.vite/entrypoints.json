@@ -1,0 +1,23 @@
+{
+  "base": "/bundles/areanetsurchargepromotions/administration/",
+  "entryPoints": {
+    "areanet-surcharge-promotions": {
+      "css": [],
+      "dynamic": [],
+      "js": [
+        "/bundles/areanetsurchargepromotions/administration/assets/areanet-surcharge-promotions-CfHu3OYx.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}

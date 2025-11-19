@@ -1,8 +1,11 @@
 # Changelog
 All notable changes to this plugin will be documented in this file
 
+## [2.0.0]
+- 6.7 Kompatibilität
+
 ## [1.1.0] - 2025-03-07
-- supprt composer installation
+- support composer installation
 
 ## [1.0.0] - 2025-02-23
 - Inital version
