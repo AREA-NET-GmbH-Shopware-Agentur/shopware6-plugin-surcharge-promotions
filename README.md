@@ -6,8 +6,8 @@ Minus values can be entered for the absolute discounts and thus surcharges can b
 
 ## Unterstützte Shopware Versionen und Changelog
 
-Stand 19.11.2025:
-- **6.6.4.0 - 6.7.4.2**
+Stand 07.03.2025:
+- **6.6.4.0 - 6.6.10.2**
 - [CHANGELOG](CHANGELOG.md)
 
 ## Installation
